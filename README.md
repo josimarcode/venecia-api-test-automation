@@ -106,12 +106,15 @@ build.gradle                              | build
 
 In WINDOWS:
 ```bash                   
-./gradlew clean test
+ ./gradlew clean test
 ```
 
 In MAC:
 ```bash
   gradle clean test
+```
+```bash
+  gradle clean test -Dcucumber.filter.tags="@CP001"
 ```
 * **Opción 2**: Ir a las clases de la carpeta **runners** `src/test/java/runner/` y ejecutar
   cada TestRunner.

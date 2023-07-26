@@ -102,5 +102,7 @@ gradle/
 gradlew
 gradlew.bat
 
-
+.DS_Store
+src/.DS_Store
+src/test/.DS_Store
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all
